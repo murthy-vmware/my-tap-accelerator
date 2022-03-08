@@ -1,0 +1,9 @@
+apiVersion: accelerator.apps.tanzu.vmware.com/v1alpha1
+kind: Accelerator
+metadata:
+  name: my-tap-accelerator
+spec:
+  git:
+    url: https://github.com/murthy-vmware/my-tap-accelerator
+    ref:
+      branch: main
